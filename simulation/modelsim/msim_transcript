@@ -1,0 +1,330 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do counterHw_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/Dell/Desktop/Faculty/ARCH/Lab_4/counterHw.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:04:06 on Mar 08,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/Dell/Desktop/Faculty/ARCH/Lab_4/counterHw.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity counterHw
+# -- Compiling architecture counterHw_ARCH of counterHw
+# End time: 16:04:06 on Mar 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Dell/Desktop/Faculty/ARCH/Lab_4/hexToSevenSegment.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:04:06 on Mar 08,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/Dell/Desktop/Faculty/ARCH/Lab_4/hexToSevenSegment.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity hexToSevenSegment
+# -- Compiling architecture hexToSevenSegment_arch of hexToSevenSegment
+# End time: 16:04:06 on Mar 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Dell/Desktop/Faculty/ARCH/Lab_4/sync_2ff.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:04:06 on Mar 08,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/Dell/Desktop/Faculty/ARCH/Lab_4/sync_2ff.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity sync_2ff
+# -- Compiling architecture sync_2ff_ARCH of sync_2ff
+# End time: 16:04:06 on Mar 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Dell/Desktop/Faculty/ARCH/Lab_4/reg37Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:04:06 on Mar 08,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/Dell/Desktop/Faculty/ARCH/Lab_4/reg37Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity reg37Bit
+# -- Compiling architecture reg37Bit_ARCH of reg37Bit
+# End time: 16:04:06 on Mar 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.counterhw
+# vsim work.counterhw 
+# Start time: 16:04:23 on Mar 08,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.counterhw(counterhw_arch)
+# Loading work.sync_2ff(sync_2ff_arch)
+# Loading work.reg37bit(reg37bit_arch)
+# Loading work.hextosevensegment(hextosevensegment_arch)
+add wave -position insertpoint  \
+sim:/counterhw/enable \
+sim:/counterhw/rst \
+sim:/counterhw/clk \
+sim:/counterhw/HEX0 \
+sim:/counterhw/HEX1 \
+sim:/counterhw/HEX2 \
+sim:/counterhw/enable_reg \
+sim:/counterhw/sync_rst \
+sim:/counterhw/sync_enable \
+sim:/counterhw/reg_out \
+sim:/counterhw/next_value
+force -freeze sim:/counterhw/enable 0 0
+force -freeze sim:/counterhw/clk 1 0, 0 {10000 ps} -r 20ns
+force -freeze sim:/counterhw/rst 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 16:29:46 on Mar 08,2025, Elapsed time: 0:25:23
+# Errors: 0, Warnings: 0

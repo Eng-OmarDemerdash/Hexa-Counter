@@ -1,0 +1,24 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+-- Entity Definition
+
+entity counterHw is
+
+	port (
+	enable: 	in std_logic;
+	rst:		in std_logic;
+	clk: 		in std_logic;
+	HEX0:		out std_logic_vector(6 down to 0);
+	HEX1:		out std_logic_vector(6 down to 0);
+	HEX2:		out std_logic_vector(6 down to 0)
+	);
+
+end entity counterHw;
+
+
+architecture counterHw_ARCH of counterHw is
+
+
+end architecture counterHw_ARCH

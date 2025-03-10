@@ -1,0 +1,174 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Dell/Desktop/Faculty/ARCH/Lab_4/simulation/modelsim
+Ecounterhw
+Z1 w1741436786
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:/Users/Dell/Desktop/Faculty/ARCH/Lab_4/counterHw.vhd
+Z6 FC:/Users/Dell/Desktop/Faculty/ARCH/Lab_4/counterHw.vhd
+l0
+L7
+Viem71O06M>@BzO5mB=QaW1
+!s100 Chzz5XRHoLGhKRNF6gUF>2
+Z7 OV;C;10.5b;63
+31
+Z8 !s110 1741442646
+!i10b 1
+Z9 !s108 1741442646.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/Dell/Desktop/Faculty/ARCH/Lab_4/counterHw.vhd|
+Z11 !s107 C:/Users/Dell/Desktop/Faculty/ARCH/Lab_4/counterHw.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Acounterhw_arch
+R2
+R3
+R4
+DEx4 work 9 counterhw 0 22 iem71O06M>@BzO5mB=QaW1
+l52
+L21
+VWWNO06D<NCRcmbd[RKJQH0
+!s100 SWEP<@6V58_U8FVlYMKSC2
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ehextosevensegment
+Z14 w1741432959
+R2
+R3
+R4
+R0
+Z15 8C:/Users/Dell/Desktop/Faculty/ARCH/Lab_4/hexToSevenSegment.vhd
+Z16 FC:/Users/Dell/Desktop/Faculty/ARCH/Lab_4/hexToSevenSegment.vhd
+l0
+L7
+VLVkVlI<N5ccE`^7OB`bIJ2
+!s100 zO2[C4:?7e6oOlPL<Y[ZW1
+R7
+31
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/Dell/Desktop/Faculty/ARCH/Lab_4/hexToSevenSegment.vhd|
+Z18 !s107 C:/Users/Dell/Desktop/Faculty/ARCH/Lab_4/hexToSevenSegment.vhd|
+!i113 1
+R12
+R13
+Ahextosevensegment_arch
+R2
+R3
+R4
+DEx4 work 17 hextosevensegment 0 22 LVkVlI<N5ccE`^7OB`bIJ2
+l20
+L16
+V<]0_OH5BDE8XHgYbBO5b31
+!s100 i_981>k42ezdXORc@YJQ;3
+R7
+31
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Ereg37bit
+Z19 w1741436516
+R2
+R3
+R4
+R0
+Z20 8C:/Users/Dell/Desktop/Faculty/ARCH/Lab_4/reg37Bit.vhd
+Z21 FC:/Users/Dell/Desktop/Faculty/ARCH/Lab_4/reg37Bit.vhd
+l0
+L7
+VdlP8RDV<b7gJz<@V`GAU:3
+!s100 Czhlz:L[]:ZzWS9Bkiizm1
+R7
+31
+R8
+!i10b 1
+R9
+Z22 !s90 -reportprogress|300|-93|-work|work|C:/Users/Dell/Desktop/Faculty/ARCH/Lab_4/reg37Bit.vhd|
+Z23 !s107 C:/Users/Dell/Desktop/Faculty/ARCH/Lab_4/reg37Bit.vhd|
+!i113 1
+R12
+R13
+Areg37bit_arch
+R2
+R3
+R4
+DEx4 work 8 reg37bit 0 22 dlP8RDV<b7gJz<@V`GAU:3
+l24
+L20
+V<FAK4KOFHFj^z1JF2zO2E2
+!s100 kULnWD^XE0K40dLRgPmON0
+R7
+31
+R8
+!i10b 1
+R9
+R22
+R23
+!i113 1
+R12
+R13
+Esync_2ff
+Z24 w1741440911
+R2
+R3
+R4
+R0
+Z25 8C:/Users/Dell/Desktop/Faculty/ARCH/Lab_4/sync_2ff.vhd
+Z26 FC:/Users/Dell/Desktop/Faculty/ARCH/Lab_4/sync_2ff.vhd
+l0
+L6
+VViggIMS]0GgHLC[S>6B?z1
+!s100 aL51Me4BKiP4Tn]Y`23VZ0
+R7
+31
+R8
+!i10b 1
+R9
+Z27 !s90 -reportprogress|300|-93|-work|work|C:/Users/Dell/Desktop/Faculty/ARCH/Lab_4/sync_2ff.vhd|
+Z28 !s107 C:/Users/Dell/Desktop/Faculty/ARCH/Lab_4/sync_2ff.vhd|
+!i113 1
+R12
+R13
+Async_2ff_arch
+R2
+R3
+R4
+DEx4 work 8 sync_2ff 0 22 ViggIMS]0GgHLC[S>6B?z1
+l16
+L14
+V3a`K0F>F5fena6:31l4=:1
+!s100 PC=ogVV6zb4bN=aIL0XXB2
+R7
+31
+R8
+!i10b 1
+R9
+R27
+R28
+!i113 1
+R12
+R13
